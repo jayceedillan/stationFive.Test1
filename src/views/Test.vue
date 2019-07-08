@@ -139,6 +139,7 @@ export default {
 
     getValueSecondGroup(selected) {
       this.secondSelectedGroup = selected;
+      this.selectedThirdGroup ='';
       this.thirdFirstGroup = "";
       this.resetValueForThird();
       if (selected === "204" || selected === "205") {
